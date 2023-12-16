@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=M+PLUS+1:wght@700&display=swap');
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 body {
     margin: 0;
     font-family: 'M Plus 1', sans-serif;
@@ -60,4 +65,17 @@ body {
 .proj h2{
     display: flex;
     justify-content: center;    
+}
+
+.about h1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.about p{
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
 }
